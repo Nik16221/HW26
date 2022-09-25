@@ -4,7 +4,7 @@ After=network.target
 
 [Service]
 WorkingDirectory=/home/cloud-ba5ov-nikita/app
-ExecStart=/home/cloud-ba5ov-nikita/app/venv/bin/pithon run.py
+ExecStart=/home/cloud-ba5ov-nikita/app/venv/bin/python run.py
 
 [Install]
 WantedBy=multi-user.target
