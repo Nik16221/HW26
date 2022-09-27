@@ -3,8 +3,8 @@ Description=Flask app service
 After=network.target
 
 [Service]
-WorkingDirectory=/home/cloud-ba5ov-nikita/app
-ExecStart=/home/cloud-ba5ov-nikita/app/venv/bin/python run.py
+WorkingDirectory=/home/nbasov/HW25/curs_work3
+ExecStart=/home/nbasov/HW25/curs_work3/venv/bin/ -m gunicorn main:app -b 0.0.0.0:80 -w 4
 
 [Install]
 WantedBy=multi-user.target
