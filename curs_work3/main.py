@@ -1,7 +1,7 @@
 from flask import Flask
-from curs_work3.bp_posts.views import bp_posts
-from curs_work3.bp_api.views import bp_api
-from curs_work3.exceptions.data_exceptions import DataSourceError
+from bp_posts.views import bp_posts
+from bp_api.views import bp_api
+from exceptions.data_exceptions import DataSourceError
 from curs_work3 import config_logger
 
 
