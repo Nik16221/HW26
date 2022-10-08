@@ -1,9 +1,9 @@
 from flask import Blueprint, render_template, request, abort
-from curs_work3.bp_posts.dao.comment import Comment
-from curs_work3.bp_posts.dao.comment_dao import CommentDao
-from curs_work3.bp_posts.dao.post import Post
-from curs_work3.bp_posts.dao.post_dao import PostDAO
-from curs_work3.config import DATA_PATH_POST, DATA_PATH_COMMENTS
+from bp_posts.dao.comment import Comment
+from bp_posts.dao.comment_dao import CommentDao
+from bp_posts.dao.post import Post
+from bp_posts.dao.post_dao import PostDAO
+from config import DATA_PATH_POST, DATA_PATH_COMMENTS
 
 #Создаем блупринт
 bp_posts = Blueprint("bp_posts", __name__, template_folder="templates")
@@ -60,3 +60,4 @@ def page_posts_search():
                            query=query,
                            posts_len=len(posts)
                            )
+

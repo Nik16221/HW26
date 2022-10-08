@@ -1,22 +1,5 @@
-from flask import Flask
-from bp_posts.views import bp_posts
-from bp_api.views import bp_api
+from app import app
 from exceptions.data_exceptions import DataSourceError
-from curs_work3 import config_logger
-
-
-def create_and_config_app(config_path):
-    app = Flask(__name__)
-
-    app.register_blueprint(bp_posts)
-    app.register_blueprint(bp_api, url_prefix="/api")
-
-    app.config.from_pyfile(config_path)
-    config_logger.config(app)
-    return app
-
-
-app = create_and_config_app("config.py")
 
 
 @app.errorhandler(404)
@@ -32,7 +15,3 @@ def page_error_500(error):
 @app.errorhandler(DataSourceError)
 def page_error_data_source_error(error):
     return f"Ошибка, на сайте поломались данные {error}", 500
-
-
-if __name__ == "__main__":
-    app.run(debug=True)

@@ -1,7 +1,7 @@
 import json
 from json import JSONDecodeError
-from curs_work3.bp_posts.dao.comment import Comment
-from curs_work3.exceptions.data_exceptions import DataSourceError
+from bp_posts.dao.comment import Comment
+from exceptions.data_exceptions import DataSourceError
 
 
 class CommentDao:

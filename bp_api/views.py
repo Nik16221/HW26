@@ -1,9 +1,9 @@
 import logging
 from flask import Blueprint, jsonify, abort
-from curs_work3.bp_posts.dao.comment_dao import CommentDao
-from curs_work3.bp_posts.dao.post import Post
-from curs_work3.bp_posts.dao.post_dao import PostDAO
-from curs_work3.config import DATA_PATH_POST, DATA_PATH_COMMENTS
+from bp_posts.dao.comment_dao import CommentDao
+from bp_posts.dao.post import Post
+from bp_posts.dao.post_dao import PostDAO
+from config import DATA_PATH_POST, DATA_PATH_COMMENTS
 
 
 #Создаем блупринт
