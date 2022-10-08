@@ -3,7 +3,7 @@ version: "3.3"
 services:
   web:
     build: .
-    image: nbasov3/homework26:v0.1.0
+    #image: nbasov3/homework26:v0.1.0
     ports:
       - "80:25000"
     environment:
