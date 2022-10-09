@@ -1,6 +1,6 @@
 FROM python:3.10
 
-ENV HOME / flask_app_docker
+ENV HOME / HW26
 WORKDIR $HOME
 
 COPY requirements.txt .
