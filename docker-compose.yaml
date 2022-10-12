@@ -3,15 +3,15 @@ version: "3.3"
 services:
   web:
     build: .
-    image: nbasov3/homework26:v0.1.0
+    image: nbasov3/homework26:latest
     ports:
-    - "80:80"
+    - "8000:80"
     environment:
       - DB_PASSWORD=db_password
       - DB_USER=db_user
       - DB_NAME=db_name
   db:
-    image: postgres
+    image: postgres:latest
     environment:
       - POSTGRES_PASSWORD=db_password
       - POSTGRES_USER=db_user

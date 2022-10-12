@@ -1,3 +1,3 @@
 export FLASK_APP=app.py
 
-flask run -h 0.0.0.0 -p 8000
+flask run -h 0.0.0.0 -p 80
