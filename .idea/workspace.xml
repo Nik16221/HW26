@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f847a627-82c7-4ba6-a0a6-d45ee4cddf70" name="Changes" comment="deploy actions">
+    <list default="true" id="f847a627-82c7-4ba6-a0a6-d45ee4cddf70" name="Changes" comment="last version">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose-ci.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose-ci.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/entrypoint.sh" beforeDir="false" afterPath="$PROJECT_DIR$/entrypoint.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask-app.service" beforeDir="false" afterPath="$PROJECT_DIR$/flask-app.service" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -266,7 +261,7 @@
       <workItem from="1665256554449" duration="18145000" />
       <workItem from="1665342880911" duration="8906000" />
       <workItem from="1665418137120" duration="7244000" />
-      <workItem from="1665598734885" duration="420000" />
+      <workItem from="1665598734885" duration="2777000" />
     </task>
     <task id="LOCAL-00001" summary="good">
       <created>1664318972156</created>
@@ -352,7 +347,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665354823076</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="last version">
+      <created>1665599173901</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1665599173901</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -376,7 +378,8 @@
     <MESSAGE value="add actions2" />
     <MESSAGE value="add new actions" />
     <MESSAGE value="deploy actions" />
-    <option name="LAST_COMMIT_MESSAGE" value="deploy actions" />
+    <MESSAGE value="last version" />
+    <option name="LAST_COMMIT_MESSAGE" value="last version" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/HW25$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1664488628785" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

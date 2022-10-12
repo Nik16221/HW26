@@ -29,4 +29,4 @@ def create_and_config_app(config_path):
 app = create_and_config_app("config.py")
 
 if __name__ == "__main__":
-    app.run(port=8000, debug=True)
+    app.run(debug=True)
