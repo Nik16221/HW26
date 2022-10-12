@@ -3,7 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="f847a627-82c7-4ba6-a0a6-d45ee4cddf70" name="Changes" comment="deploy actions">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose-ci.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose-ci.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entrypoint.sh" beforeDir="false" afterPath="$PROJECT_DIR$/entrypoint.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask-app.service" beforeDir="false" afterPath="$PROJECT_DIR$/flask-app.service" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -259,7 +264,9 @@
       <workItem from="1664915253085" duration="5628000" />
       <workItem from="1664997270924" duration="5152000" />
       <workItem from="1665256554449" duration="18145000" />
-      <workItem from="1665342880911" duration="7459000" />
+      <workItem from="1665342880911" duration="8906000" />
+      <workItem from="1665418137120" duration="7244000" />
+      <workItem from="1665598734885" duration="420000" />
     </task>
     <task id="LOCAL-00001" summary="good">
       <created>1664318972156</created>
@@ -338,7 +345,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665353201610</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="deploy actions">
+      <created>1665354823076</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1665354823076</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -369,7 +383,7 @@
     <SUITE FILE_PATH="coverage/HW25$main.coverage" NAME="main Coverage Results" MODIFIED="1664402740050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/curs_work3" />
     <SUITE FILE_PATH="coverage/HW25$app.coverage" NAME="app Coverage Results" MODIFIED="1664490793883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bp_api" />
     <SUITE FILE_PATH="coverage/HW25$Flask__app_py_create_and_config_app_.coverage" NAME="Flask (app.py:create_and_config_app) Coverage Results" MODIFIED="1664740744687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/HW25$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1664920882440" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/HW25$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1665424218258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/HW25$HW25.coverage" NAME="HW25 Coverage Results" MODIFIED="1664737262444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/HW25$app__1_.coverage" NAME="app (1) Coverage Results" MODIFIED="1664492054844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>

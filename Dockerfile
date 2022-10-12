@@ -1,10 +1,10 @@
 FROM python:3.10
 
-ENV HOME / HW26
+ENV HOME / flask_app_docker
 WORKDIR $HOME
 
 COPY requirements.txt .
-RUN python3 -m pip install --no-cache -r requirements.txt
+RUN python3.10 -m pip install --no-cache -r requirements.txt
 
 COPY . .
 
