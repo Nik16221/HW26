@@ -4,7 +4,7 @@ services:
   web:
     image: nbasov3/homework26:$GITHUB_REF_NAME-$GITHUB_RUN_ID
     ports:
-      - "8000:80"
+      - "80:80"
     environment:
       - DB_PASSWORD=$DB_PASSWORD
       - DB_USER=$DB_USER
