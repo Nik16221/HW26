@@ -9,4 +9,4 @@ RUN python3.10 -m pip install --no-cache -r requirements.txt
 
 COPY . .
 
-CMD flask run -h 0.0.0.0 -p 80
+ENTRYPOINT ["sh", "entrypoint.sh"]
